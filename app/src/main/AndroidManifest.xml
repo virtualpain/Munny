@@ -9,16 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="me.virtualpain.munny.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="me.virtualpain.munny.activities.fruits.FruitActivity" />
-        <activity android:name="me.virtualpain.munny.activities.counter.CounterActivity" />
-        <activity android:name="me.virtualpain.munny.activities.countdown.CountdownActivity"></activity>
+        <activity android:name=".activities.fruits.FruitActivity" />
+        <activity android:name=".activities.counter.CounterActivity" />
+        <activity android:name=".activities.countdown.CountdownActivity" />
+        <activity android:name=".activities.anko.TryAnkoActivity" />
+        <activity android:name=".activities.anko.AnkoListActivity" />
+        <activity android:name=".activities.retrofit.TryRetrofitActivity"></activity>
     </application>
 
 </manifest>
