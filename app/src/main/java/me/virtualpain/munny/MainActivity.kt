@@ -10,6 +10,7 @@ import me.virtualpain.munny.activities.anko.TryAnkoActivity
 import me.virtualpain.munny.activities.countdown.CountdownActivity
 import me.virtualpain.munny.activities.counter.CounterActivity
 import me.virtualpain.munny.activities.fruits.FruitActivity
+import me.virtualpain.munny.activities.retrofit.TryRetrofitActivity
 
 class MainActivity : AppCompatActivity(), MainMenuAdapter.OnclickListener {
     override fun click(mainMenu: MainMenuModel) {
@@ -25,7 +26,10 @@ class MainActivity : AppCompatActivity(), MainMenuAdapter.OnclickListener {
         menus.add(MainMenuModel("The Number", CounterActivity::class, "Simple counter app, contain extension function: toast"))
         menus.add(MainMenuModel("Countdown", CountdownActivity::class, "Simple counter app, contain timer"))
         menus.add(MainMenuModel("Anko Layout", TryAnkoActivity::class, "Views in this activity made by Anko DSL"))
-        menus.add(MainMenuModel("Anko List", AnkoListActivity::class, "Using Anko in Recycler view"))
+        menus.add(MainMenuModel("Retrofit", TryRetrofitActivity::class, "Example usage of Retrofit"))
+
+
+//        menus.add(MainMenuModel("Anko List", AnkoListActivity::class, "Using Anko in Recycler view"))
 
         val mainMenuAdapter = MainMenuAdapter(menus, this)
 
