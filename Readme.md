@@ -7,4 +7,4 @@ contain best practices, insults, jokes, and fan girling comments. It also uses p
 libraries such as OkHttp, Retrofit, Picasso, Glade, etc and probably popular libraries that written
 in/for Kotlin in the future.
 
-![Screenshot](https://raw.github.com/virtualpain/munny/master/shot.jpg
+![Screenshot](https://raw.github.com/virtualpain/munny/master/shot.jpg)
